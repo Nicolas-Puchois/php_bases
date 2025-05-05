@@ -1,0 +1,1 @@
+<a href="get2.php?produit=tshirt&couleur=rouge&prix=30">Produit 2</a>
