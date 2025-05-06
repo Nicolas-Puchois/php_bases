@@ -15,6 +15,15 @@
         <li class="nav-item">
           <a class="nav-link" href="../../get1.php">Get1</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/../../formulaire1.php">Formulaire</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/../../formulaire2.php">Formulaire2</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./../../lecture_fichier.php">Lecture fichier</a>
+        </li>
       </ul>
     </div>
   </div>
