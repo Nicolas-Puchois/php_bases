@@ -1,0 +1,126 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.header-logo {
+  float: left;
+  width: 33.33%;
+}
+
+.header-nom-site {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-slogan {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.header-droite {
+  float: right;
+  width: 33.33%;
+  text-align: right;
+}
+
+/* Navigation */
+nav {
+  background-color: #4a4a4a;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section principale */
+section {
+  padding: 30px 0;
+}
+
+main {
+  float: left;
+  width: 70%;
+  padding-right: 30px;
+}
+textarea {
+  resize: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  float: right;
+  width: calc(30% - 30px);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+/* Images */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

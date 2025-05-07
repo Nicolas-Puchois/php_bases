@@ -24,6 +24,8 @@
         <li>
           <a class="nav-link" href="./../../lecture_fichier.php">Lecture fichier</a>
         </li>
+        <a class="nav-link" href="./../../email.php">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
