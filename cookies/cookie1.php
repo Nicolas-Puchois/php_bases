@@ -1,4 +1,10 @@
 <?php
-setcookie("nomCookie", "contenueCookie", time() + 31536000);
+// setcookie('nomCookie', 'contenueCookie', time() + 31536000);
 
-echo time();
+
+
+if (isset($_COOKIE['nomCookie'])) {
+    setcookie('nomCookie', '', time() - 3600, "/cookies");
+}
+
+// echo time();

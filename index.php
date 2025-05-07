@@ -16,5 +16,7 @@
         <li><a href="./array/array-of-object.php">Array-object </a></li>
         <li><a href="./inclusion/principale.php">Inclusion </a></li>
         <li><a href="./Mon_site_structure_base/index.html">Inclusion-Exemple </a></li>
+        <li><a href="./cookies/cookie1.php">Cookies </a></li>
+        <li><a href="./session/session1.php">Session </a></li>
     </ul>
 </nav>
