@@ -1,0 +1,55 @@
+form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & input,
+  select,
+  button {
+    margin: 1rem 0;
+  }
+  & div#sexe {
+    display: flex;
+    flex-direction: row;
+  }
+  /* From Uiverse.io by SujitAdroja */
+  button {
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid grey;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+
+  button:hover {
+    color: white;
+  }
+
+  button::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: grey;
+    z-index: -1;
+    transition: all 1s;
+  }
+
+  button:hover::before {
+    width: 160%;
+  }
+}
+div#sucess {
+  color: green;
+}
