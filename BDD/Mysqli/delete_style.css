@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.confirmation-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.confirmation-form p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
