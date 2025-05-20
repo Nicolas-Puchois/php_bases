@@ -76,6 +76,8 @@ if (isset($_POST['id'])) {
         </table>
 
         <form method="post" class="confirmation-form">
+            <!-- Ajout du champ caché pour l'ID -->
+            <input type="hidden" name="id" value="<?php echo $employe['id_employes']; ?>">
             <p>Êtes-vous sûr de vouloir supprimer cet employé ?</p>
             <input type="submit" name="confirm" value="Oui, supprimer" class="btn-supprimer">
             <a href="fetch_field.php" class="btn-modifier">Annuler</a>
