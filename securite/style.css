@@ -1,0 +1,29 @@
+body {
+  background-color: lightgrey;
+}
+
+.affichage {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & .valider {
+    color: green;
+  }
+
+  & .erreur {
+    color: red;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  & input:hover {
+    color: aqua;
+    background-color: black;
+  }
+}
